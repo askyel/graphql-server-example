@@ -7,10 +7,12 @@
     {
       title: 'Harry Potter and the Chamber of Secrets',
       author: 'J.K. Rowling',
+      pageCount: 100,
     },
     {
       title: 'Jurassic Park',
       author: 'Michael Crichton',
+      pageCount: 200,
     },
   ];
 
@@ -23,6 +25,7 @@
     type Book {
       title: String
       author: String
+      pageCount: Int
     }
 
     # The "Query" type is the root of all GraphQL queries.
@@ -50,7 +53,7 @@
     //   apiKey: process.env.ENGINE_API_KEY
     // }
     engine: {
-      apiKey: "user:askyel:wnzJ1JbRL6s-3TKqOPZAkg"
+      apiKey: "service:askyel-gitcontext:XjQx1DwyO0pln2WBkVQvNw"
     }
   });
 
